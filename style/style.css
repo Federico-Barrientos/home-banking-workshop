@@ -71,6 +71,14 @@ body {
     background-color: #ff3333;
 }
 
+.btn-container-2{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+}
 
 /*ESTILOS PAGINA DE REGISTRO*/
 
