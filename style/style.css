@@ -1,50 +1,55 @@
-*{
+* {
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
 
-body{
+body {
     background-color: #0a966b;
 }
 
-.hidden{
+.hidden {
     display: none !important;
 }
 
-.main{
+.main {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.container{
+.container {
     width: calc(100% - 400px);
     margin: 0 auto;
 }
+
+
 /*ESTILOS DE LA PAGINA PRINCIPAL */
-.main-header{
+
+.main-header {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
 }
 
-.icon{
+.icon {
     font-size: 100px;
     color: white;
 }
 
-.main-header h1{
+.main-header h1 {
     font-size: 65px;
     color: white;
     margin-left: 30px;
 }
-.btn-container{
+
+.btn-container {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
-.button{
+.button {
     width: 250px;
     height: 85px;
     font-size: 35px;
@@ -54,55 +59,61 @@ body{
     border-radius: 10px;
 }
 
-.btn-blue{
+.btn-blue {
     background-color: #0b7285;
 }
 
-.btn-green{
-    background-color: #74b816 ;
+.btn-green {
+    background-color: #74b816;
 }
+
+.btn-red {
+    background-color: #ff3333;
+}
+
 
 /*ESTILOS PAGINA DE REGISTRO*/
 
-.sign-in{
+.sign-in {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 
-.form-container{
+.form-container {
     margin-bottom: 70px;
 }
 
-.form-container form{
+.form-container form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-form label{
+form label {
     font-weight: 800;
     font-size: 36px;
     color: white;
 }
 
-form div{
+form div {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 30px;
 }
 
-form input{
+form input {
     height: 30px;
     margin-left: 25px;
     width: 300px;
 }
 
+
 /*ESTILOS LOG IN*/
 
-.log-in{
+.log-in {
     height: 100vh;
     display: flex;
     flex-direction: column;
