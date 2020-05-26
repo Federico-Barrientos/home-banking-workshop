@@ -8,7 +8,7 @@ body{
 }
 
 .hidden{
-    display: none;
+    display: none !important;
 }
 
 .main{
@@ -25,7 +25,7 @@ body{
 .main-header{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 120px;
 }
 
@@ -37,6 +37,7 @@ body{
 .main-header h1{
     font-size: 65px;
     color: white;
+    margin-left: 30px;
 }
 .btn-container{
     display: flex;
@@ -62,6 +63,13 @@ body{
 }
 
 /*ESTILOS PAGINA DE REGISTRO*/
+
+.sign-in{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 .form-container{
     margin-bottom: 70px;
@@ -90,4 +98,13 @@ form input{
     height: 30px;
     margin-left: 25px;
     width: 300px;
+}
+
+/*ESTILOS LOG IN*/
+
+.log-in{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
