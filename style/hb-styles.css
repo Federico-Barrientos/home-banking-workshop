@@ -1,0 +1,76 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.hidden{
+    display: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.account, .navigation {
+    display: flex;
+}
+
+.account {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.navigation {
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.my-data {
+    margin-bottom: 30px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn-blue{
+    background-color: #0b7285;
+}
+
+.btn-green{
+    background-color: #74b816;
+}
+
+.btn-red{
+    background-color: #db2323;
+    height: 25px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 10px;
+}
