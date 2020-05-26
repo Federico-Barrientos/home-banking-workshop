@@ -1,0 +1,93 @@
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #0a966b;
+}
+
+.hidden{
+    display: none;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: calc(100% - 400px);
+    margin: 0 auto;
+}
+/*ESTILOS DE LA PAGINA PRINCIPAL */
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+
+.icon{
+    font-size: 100px;
+    color: white;
+}
+
+.main-header h1{
+    font-size: 65px;
+    color: white;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    width: 250px;
+    height: 85px;
+    font-size: 35px;
+    color: white;
+    font-weight: 800;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn-blue{
+    background-color: #0b7285;
+}
+
+.btn-green{
+    background-color: #74b816 ;
+}
+
+/*ESTILOS PAGINA DE REGISTRO*/
+
+.form-container{
+    margin-bottom: 70px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label{
+    font-weight: 800;
+    font-size: 36px;
+    color: white;
+}
+
+form div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+form input{
+    height: 30px;
+    margin-left: 25px;
+    width: 300px;
+}
